@@ -17,6 +17,8 @@ After installing the required tools, you will need to ensure that your computer 
 
 From the packer-templates directory on your local machine:
 
+* NEW: To run from a locally available ISO, use application-server-local-iso.json as the input file instead; and edit the iso_url to point to the local path containing the ISO image.
+
 * Run `packer build -only=virtualbox-iso application-server.json`. You may see various timeouts and errors, as shown below. If you do, retry the command until the ISO download succeeds:
 
 ```
